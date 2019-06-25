@@ -8,8 +8,8 @@ namespace TheStickerShopApi.Models
     public string SKU { get; set; }
     public string Name { get; set; }
     public string Description { get; set; }
-    public Boolean InStock { get; set; } = true;
     public int Price { get; set; }
+    public int ActualStock { get; set; }
     public DateTime DateOrdered { get; set; } = DateTime.Now;
   }
 }
